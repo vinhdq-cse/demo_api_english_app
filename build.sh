@@ -14,12 +14,4 @@ pip install -r requirements.txt
 echo "Thực hiện các migrations..."
 python manage.py migrate
 
-# Thu thập các file static
-echo "Thu thập các file static..."
-python manage.py collectstatic --noinput
-
-# Khởi động server (tuỳ chọn)
-# echo "Khởi động server..."
-# python manage.py runserver
-
 echo "Hoàn tất build!"
